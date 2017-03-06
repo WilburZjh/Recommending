@@ -85,7 +85,7 @@ class ExampleIbcf:
 		return dict(sorted(rank.items(), key = lambda x : x[1], reverse = True)[0:N])
 
 if __name__ == '__main__':
-	ibcf = ExampleIbcf('/Users/zhangjinhang1/Documents/University/y4/dissertation/submit/code_4230348/test.data')
+	ibcf = ExampleIbcf('test.data')
 	ibcf.inverse()
 	ibcf.userAverageRating()
 	ibcf.itemSimilarity()

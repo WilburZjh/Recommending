@@ -59,7 +59,7 @@ class ExampleUbcf:
 		return dict(sorted(rank.items(),key = lambda x :x[1],reverse = True)[0:N])
 
 if __name__ == '__main__':
-	ubcf = ExampleUbcf('/Users/zhangjinhang1/Documents/University/y4/dissertation/submit/code_4230348/test.data')
+	ubcf = ExampleUbcf('test.data')
 	ubcf.inverse()
 	ubcf.userset()
 	ubcf.userSimilarity()

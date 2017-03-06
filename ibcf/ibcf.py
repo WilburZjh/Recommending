@@ -152,7 +152,7 @@ class ItemBasedCF:
         return mae
 
 if __name__ == '__main__':
-    ibcf = ItemBasedCF('/Users/zhangjinhang1/Documents/University/y4/dissertation/submit/code_4230348/ml-100k/u.data ')
+    ibcf = ItemBasedCF('ml-100k/u.data ')
     for k1 in [5, 10, 20, 40, 80, 160]:
         recall = 0
         precision = 0
